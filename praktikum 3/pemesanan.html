@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Pemesanan</title>
+</head>
+<body>
+    <h1>Black Goose Bistro|
+        Pizza-on-Demand
+    </h1>
+    <p>Our 12" wood-fried pizzas are aviable for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+    <hr>
+
+    <h3>Your Information</h3>
+    <form action="sukses.html">
+
+       <table>
+        <tr>
+            <td>Name</td>
+            <td>:
+                <input type="text"
+                required>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>:
+                <input type="text"
+                required>
+            </td>
+        </tr>
+        <tr>
+            <td>No.Handphone</td>
+            <td>:
+                <input type="text"
+                required>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:
+                <input type="email"
+                required>
+            </td>
+        </tr>
+        <tr>
+            <td>Delivery Instruction</td>
+            <td>:
+               <textarea cols="21"
+               rows="3s" 
+               maxleft="400"
+               placeholder="No more Than 400 characters long"></textarea>
+            </td>
+        </tr>
+       </table>
+
+       <fieldset>
+            <legend>Design Your Draem Pizza</legend>
+            <h3>Crust (Choose one):</h3>
+            <ul>
+             <li>
+                 <input type="radio"
+                 id="classic"
+                 name="crust">
+                 <label for="classic" >
+                    Clasic white</label>
+                 
+             </li>
+             <li>
+                <input type="radio"
+                id="multi"
+                name="crust">
+                <label for="multi">
+                    Multigrain</label>
+                
+             </li>
+             <li>
+                <input type="radio"
+                id="una"
+                name="crust">
+                <label for="una">
+                    Una Melt</label>
+                
+             </li>
+             <li>
+                <input type="radio"
+                id="cheesy"
+                name="crust">
+                <label for="cheesy">Cheesy Galone</label>
+                
+             </li>
+             <li>
+                <input type="radio"
+                id="ment"
+                name="crust">
+                <label for="ment">
+                    Ment Lover</label>
+                
+             </li>
+            </ul>
+
+            <h3>Toppings (Choose as many you want):</h3>
+
+            <ul>
+                <li>
+                    <input type="checkbox">
+                    White Sauce
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Mozarell Cheese
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Papprerani
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Mushrooms
+                </li>
+                <li>
+                    <input type="checkbox">
+                    peppers
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Anchories
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Pineapple
+                </li>
+            </ul>
+
+            <h3>Number</h3>
+            <label>How many pizzas:</label>
+            <input type="number" min="1" max="6">
+
+            <input type="submit" 
+            value="Bring me a pizzas">
+            <input type="reset">
+       </fieldset>
+      
+
+    </form>
+
+
+
+
+
+</body>
+</html>
